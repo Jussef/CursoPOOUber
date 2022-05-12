@@ -6,9 +6,11 @@ class Account {
     public $email;
     public $password;
 
-    public function __constructor($name, $document){
-        $this->name = name
-        $this->docuemnt = document
+    public function __construct($name, $document){
+        $this->name = $name;
+        $this->document = $document;
     }
+
 }
->?
+
+?>
