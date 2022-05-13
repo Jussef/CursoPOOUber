@@ -9,11 +9,19 @@
 
 // ES6
 class Account {
-    constructor(name, document){
+    constructor(name, document, email, password){
         this.id;
         this.name = name;
         this.document = document;
-        this.email;
-        this.password;
+        this.email = email;
+        this.password = password;
     }
+    printDataAccount = () => {
+        console.log("__ACCOUNT__");
+        console.log(this.name);
+        console.log(this.document);
+        console.log(this.email);
+        console.log(this.password);
+        console.log("____");
+    };
 }

@@ -22,8 +22,10 @@ class Car {
         this.passenger;
     }
     printDataCar = () => {
+        console.log("__CAR__");
         console.log(this.driver);
         console.log(this.driver.name);
         console.log(this.driver.document);
+        console.log("____");
     };
 }
